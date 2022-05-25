@@ -29,7 +29,7 @@
             <input id="opcion" type="hidden" name="opcion">
 
             <div class="align-items-center row justify-content-center mt-4">
-                <div class="col-8 col-md-5">
+                <div class="col-8 col-md-5 text-center">
                     <button type="submit" class="btn btn-warning" value="suma"
                     onclick = "(document.getElementById('opcion').value = 'suma')">Sumar</button>
                     <button type="submit" class="btn btn-warning" value="resta"
