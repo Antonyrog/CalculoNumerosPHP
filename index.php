@@ -10,16 +10,16 @@
 <body>
     <div clas="container">
         <form action="Calculo.php" method="post">
-            <h1 class="text-center ">Cálculo de dos números</h1>
+            <h1 class="text-center mt-5">Cálculo de dos números</h1>
             <div class="row justify-content-center mt-5">
-                <label class="col-3 col-form-label">Primer número:</label>
-                <div class="col-8 col-md-4">
+                <label class="col-2 col-form-label">Primer número:</label>
+                <div class="col-8 col-md-3">
                     <input type="number" class="form-control" name="val1">
                 </div>
             </div>
             <div class="row justify-content-center mt-3">
-                <label class="col-3 col-form-label">Segundo número:</label>
-                <div class="col-8 col-md-4">
+                <label class="col-2 col-form-label">Segundo número:</label>
+                <div class="col-8 col-md-3">
                     <input type="number" class="form-control" name="val2">
                 </div>
             </div>
@@ -40,7 +40,7 @@
                     onclick = "(document.getElementById('opcion').value = 'division')">Dividir</button>
                 </div>
             </div>
-        </form>
+        </form>      
     </div>
 </body>
 </html>
