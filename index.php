@@ -10,7 +10,7 @@
 <body>
     <div clas="container">
         <form action="Calculo.php" method="post">
-            <h1 class="text-center ">Calculo de dos números</h1>
+            <h1 class="text-center ">Cálculo de dos números</h1>
             <div class="row justify-content-center mt-5">
                 <label class="col-3 col-form-label">Primer número:</label>
                 <div class="col-8 col-md-4">
