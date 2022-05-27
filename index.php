@@ -14,13 +14,13 @@
             <div class="row justify-content-center mt-5">
                 <label class="col-2 col-form-label">Primer número:</label>
                 <div class="col-8 col-md-3">
-                    <input type="number" class="form-control" name="val1">
+                    <input type="number" class="form-control" name="val1" required>
                 </div>
             </div>
             <div class="row justify-content-center mt-3">
                 <label class="col-2 col-form-label">Segundo número:</label>
                 <div class="col-8 col-md-3">
-                    <input type="number" class="form-control" name="val2">
+                    <input type="number" class="form-control" name="val2" required>
                 </div>
             </div>
             <!--Este input toma el evento del boton asignandole 
